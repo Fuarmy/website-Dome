@@ -1,0 +1,50 @@
+:root {
+    --blue: #50a1ff;
+    --indigo: #6610f2;
+    --purple: #926dde;
+    --pink: #e83e8c;
+    --red: #ff4954;
+    --orange: #ffbe00;
+    --yellow: #ffba00;
+    --green: #3cd458;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #343a40;
+    --primary: #50a1ff;
+    --secondary: #e9ecf0;
+    --success: #3cd458;
+    --info: #926dde;
+    --warning: #ffba00;
+    --danger: #ff4954;
+    --light: #f8fafc;
+    --dark: #16202f;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1260px;
+    --breakpoint-xxl: 1500px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(23,23,23,0);
+}
+body {
+    margin: 0;
+    font-family: Dosis,Open Sans,pingfang SC,helvetica neue,arial,hiragino sans gb,microsoft yahei ui,microsoft yahei,simsun,sans-serif;
+    font-size: .9375rem;
+    font-weight: 300;
+    line-height: 1.9;
+    background-color: #fff;
+}
