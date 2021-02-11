@@ -1,21 +1,114 @@
 .light {
-    background-color: #f8fafc;
+  background-color: #f8fafc;
+  .dk {
+    color: #d4d4d5;
+    background-color: #111;
+  }
+  .active,
+  button:hover,
+  a.active, a.link-active, a:active, a:focus, a:hover {
+    color: var(--blue);
+  }
+  input {
+    &:focus {
+      border-color: var(--blue)!important;
+      box-shadow: 0 1px 5px rgb(80 161 255 / 10%);
+    }
+  }
+  .white {
+    background-color: #fff;
+  }
 }
-.fugu {
+.retro {
+  color: rgba(17,19,14,.7);
+  background-color: #f2efdd;
+  .dk {
     color: rgba(17,19,14,.7);
-    background-color: #f2efdd;
+    background-color: #eeebd4;
+  }
+  .active,
+  button:hover,
+  a.active, a.link-active, a:active, a:focus, a:hover {
+    color: #baaa49;
+  }
+  input {
+    &:focus {
+      border-color: #baaa49!important;
+      box-shadow: 0 1px 5px rgb(80 161 255 / 10%);
+    }
+  }
 }
-.huyan {
+.eyeshield {
+  color: rgba(16,20,16,.7);
+  background-color: #c7ebca;
+  .dk {
     color: rgba(16,20,16,.7);
-    background-color: #c7ebca;
+    background-color: #bee8c1;
+  }
+  .active,
+  button:hover,
+  a.active, a.link-active, a:active, a:focus, a:hover {
+    color: #3da946;
+  }
+  input {
+    &:focus {
+      border-color: #3da946!important;
+      box-shadow: 0 1px 5px rgb(61 169 70 / 10%);
+    }
+  }
 }
 .haitian {
+  color: rgba(16,20,16,.7);
+  background-color: #dce2f1;
+  .dk {
     color: rgba(16,20,16,.7);
-    background-color: #dce2f1;
+    background-color: #d3daed;
+  }
+  .avtive,
+  button:hover,
+  a.active, a.link-active, a:active, a:focus, a:hover {
+    color: #4a69b7;
+  }
+  input {
+    &:focus {
+      border-color: #4a69b7!important;
+      box-shadow: 0 1px 5px rgb(74 105 183 / 10%);
+    }
+  }
+}
+.deep {
+  background-color: #16202f;
+  .dk {
+    color: #d4d4d5;
+    background-color: #111;
+  }
+  .avtive,
+  button:hover,
+  a.active, a.link-active, a:active, a:focus, a:hover {
+    color: var(--blue);
+  }
+  input {
+    &:focus {
+      border-color: var(--blue)!important;
+      box-shadow: 0 1px 5px rgb(80 161 255 / 10%);
+    }
+  }
 }
 .dark {
-    background-color: #16202f;
-}
-.black {
-    background-color: #171717;
+  background-color: #171717;
+  .dk {
+    color: #d4d4d5;
+    background-color: #111;
+  }
+  .active,
+  button:hover,
+  a.active, a.link-active, a:active, a:focus, a:hover {
+    color: var(--blue);
+  }
+  input {
+    &:focus {
+      border-color: var(--blue)!important;
+      box-shadow: 0 1px 5px rgb(80 161 255 / 10%);
+    }
+  }
 }

@@ -1,50 +1,115 @@
 :root {
-    --blue: #50a1ff;
-    --indigo: #6610f2;
-    --purple: #926dde;
-    --pink: #e83e8c;
-    --red: #ff4954;
-    --orange: #ffbe00;
-    --yellow: #ffba00;
-    --green: #3cd458;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #868e96;
-    --gray-dark: #343a40;
-    --primary: #50a1ff;
-    --secondary: #e9ecf0;
-    --success: #3cd458;
-    --info: #926dde;
-    --warning: #ffba00;
-    --danger: #ff4954;
-    --light: #f8fafc;
-    --dark: #16202f;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1260px;
-    --breakpoint-xxl: 1500px;
-    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --blue: #50a1ff;
+  --indigo: #6610f2;
+  --purple: #926dde;
+  --pink: #e83e8c;
+  --red: #ff4954;
+  --orange: #ffbe00;
+  --yellow: #ffba00;
+  --green: #3cd458;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #868e96;
+  --gray-dark: #343a40;
+  --primary: #50a1ff;
+  --secondary: #e9ecf0;
+  --success: #3cd458;
+  --info: #926dde;
+  --warning: #ffba00;
+  --danger: #ff4954;
+  --light: #f8fafc;
+  --dark: #16202f;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1260px;
+  --breakpoint-xxl: 1500px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
 *, :after, :before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(23,23,23,0);
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(23,23,23,0);
 }
 body {
-    margin: 0;
-    font-family: Dosis,Open Sans,pingfang SC,helvetica neue,arial,hiragino sans gb,microsoft yahei ui,microsoft yahei,simsun,sans-serif;
-    font-size: .9375rem;
-    font-weight: 300;
-    line-height: 1.9;
-    background-color: #fff;
+  margin: 0;
+  font-family: Dosis,Open Sans,pingfang SC,helvetica neue,arial,hiragino sans gb,microsoft yahei ui,microsoft yahei,simsun,sans-serif;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 1.9;
+  background-color: #fff;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #757575;
+  background-color: #f8fafc;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+a {
+  color: var(--blue);
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  background-color: transparent;
+}
+a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+a.active, a.link-active, a:active, a:focus, a:hover {
+  color: var(--blue);
+  text-decoration: none;
+  outline: none;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+button, input, textarea {
+  color: inherit;
+  font: inherit;
+}
+button, input {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled), .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+[class*=" icon-"]:not(.icon-box), [class^=icon-]:not(.icon-box) {
+  font-family: iconfont!important;
+  font-size: 1.1em;
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
 }
