@@ -8,6 +8,6 @@ export const router = createRouter({
     routes
 });
 
-router.afterEach(()=> {
+router.afterEach(() => {
     console.log('路由切换了')
 })

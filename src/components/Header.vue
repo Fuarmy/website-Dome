@@ -46,7 +46,7 @@
       </nav>
     </div>
   </div>
-  <div class="app-header-navbar white shadow-4 border-bottom pc-model">
+  <div class="app-header-navbar bg shadow-4 border-bottom pc-model">
     <div class="app-header-main">
       <a href="/" class="app-header-logo active">
         <i class="icon-logo"></i>
@@ -217,7 +217,7 @@ a {
         font-size: 24px;
         font-weight: 700;
         flex-grow: 1;
-        color: #3c4248;
+        // color: #3c4248;
       }
     }
     .app-header-search {
